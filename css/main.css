@@ -97,12 +97,14 @@ textarea {
 
 /*Large Background Image*/
 html {
-  background: url(../img/bkgd2.jpg) no-repeat center center fixed;
+  background: url(../zoltan-tasi-APvZiFU7v1A-unsplash\(1\).jpg) no-repeat center center fixed;
    /* set height to 100% - these are important for allowing content to vertically align */
+   height: 100%;
 }
 
 body {
   /* set height to 100% - these are important for allowing content to vertically align */
+  height: 100%;
 }
 
 .wrapper {
@@ -110,6 +112,9 @@ body {
   margin: 0;
   height: 100%;
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content {
@@ -125,6 +130,9 @@ body {
   padding: 0px 30px;
   width: 300px;
   height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #content p span {
